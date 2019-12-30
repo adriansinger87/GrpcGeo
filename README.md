@@ -14,7 +14,7 @@ so the best start is to visit the [website](https://grpc.io/).
 GRPC is an efficient language neutral framework to connect applications, based on [HTTP/2](https://http2.github.io/) and [Protocol Buffers](https://developers.google.com/protocol-buffers/), alias protobuf.
 
 ### Assemblies
-* **GrpcGeo.Domain** - contains the protbuf file that describes the contract for the gRPC service.
+* **GrpcGeo.Domain** - contains the protobuf file a d compiles the classes for the gRPC client and server.
 * **GrpcGeo.Client** - .NET Core console app that connects to a gRPC server on the localhost.
 * **GrpcGeo.Server** - .NET Core console app that provides a service that needs the IP address and returns the geo information. 
 
